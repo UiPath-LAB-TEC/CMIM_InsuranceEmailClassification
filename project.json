@@ -1,0 +1,115 @@
+{
+  "name": "CMIM_InsuranceEmailClassification",
+  "description": "Re:Infer, Studio Web, Serverless Robots, Integration Service",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.DocumentProcessing.Contracts": "[1.16.0-preview]",
+    "UiPath.DocumentUnderstanding.ML.Activities": "[1.16.0-preview]",
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.Form.Activities": "[23.4.5]",
+    "UiPath.FormActivityLibrary": "[2.0.5]",
+    "UiPath.IntelligentOCR.Activities": "[6.4.0-preview]",
+    "UiPath.Mail.Activities": "[1.15.2]",
+    "UiPath.OpenAI.IntegrationService.Activities": "[6.1.0]",
+    "UiPath.Persistence.Activities": "[1.4.1]",
+    "UiPath.Salesforce.IntegrationService.Activities": "[6.1.0]",
+    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.Testing.Activities": "[23.6.0-preview]",
+    "UiPath.UIAutomation.Activities": "[23.4.7]",
+    "UiPath.WebAPI.Runtime": "1.16.2",
+    "UiPath.Word.Activities": "[1.13.0]",
+    "UiPathTeam.StatusProgress.Activities": "[1.0.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.3.0",
+  "projectVersion": "1.0.144074721",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": false,
+    "supportsPersistence": true,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "555d8c7a-8a0c-4a6f-bcc4-f2c5b26594a2",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase\\FT_CMIM_RecordsInSalesforce.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "f9ef5131-a6e8-4fb3-a152-779be2a40653",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase\\FT_CMIM_OpenAI.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "arguments": {
+    "input": [
+      {
+        "name": "in_AddEmailToDataSource",
+        "type": "System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+        "required": false,
+        "hasDefault": true
+      },
+      {
+        "name": "in_ChatGptApiKey",
+        "type": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+        "required": false,
+        "hasDefault": true
+      }
+    ],
+    "output": []
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "3fb1222f-2373-42d6-9739-65296a2da3c8",
+      "input": [
+        {
+          "name": "in_AddEmailToDataSource",
+          "type": "System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "in_ChatGptApiKey",
+          "type": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        }
+      ],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
