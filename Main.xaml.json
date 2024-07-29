@@ -1,0 +1,45 @@
+{
+  "DisplayName": "Main",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_AddEmailToDataSource",
+      "DisplayName": "in_AddEmailToDataSource",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "False",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_ChatGptApiKey",
+      "DisplayName": "in_ChatGptApiKey",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_Email",
+      "DisplayName": "in_Email",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "dilip.wakdikar@gmail.com",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}
